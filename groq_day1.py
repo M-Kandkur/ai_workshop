@@ -3,6 +3,7 @@ from groq import Groq
 
 st.set_page_config("MitsAI Content Generator", layout="wide")
 st.title("📢 Mits – Content Generator")
+st.image("090b0a6f-2dd9-4db5-a215-00461a19d874.jpg", use_container_width=True)
 
 client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 
